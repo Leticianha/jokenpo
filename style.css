@@ -1,0 +1,80 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'a';
+    src: url('Raleway-VariableFont_wght.ttf');
+}
+/* body {
+    background-color: rgba(146, 131, 246, 0.234);
+} */
+
+ul#jogadorEscolha li a,
+ul#computadorEscolha li a {
+    opacity: 0.2;
+    transition: ease-in-out 0.3s;
+}
+
+ul#jogadorEscolha li a:hover,
+ul#jogadorEscolha li a.selecionado,
+ul#computadorEscolha li a.selecionado {
+    opacity: 1;
+}
+
+img {
+    width: 170px;
+    border: 3px solid black;
+    border-radius: 300px;
+}
+
+#principal {
+    text-align: center;
+    font-family: 'a';
+}
+
+#titulo {
+    font-size: 50px;
+    margin-top: 3%;
+}
+
+#placar {
+    margin-top: 2%;
+
+}
+
+#jogadorEscolha,
+#computadorEscolha {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#jogadorPontos, 
+#jogadorName {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+#computadorNome,
+#computadorPontos {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+#versus{
+    padding: 30px;
+    font-size: 20px;
+}
+
+#mensagem {
+    padding: 30px;
+    font-weight: 700;
+    font-size: 25px;
+}
